@@ -60,3 +60,5 @@ Charting libraries (e.g., Chart.js) for data visualization.
 Integration with calendar APIs and to-do list platforms.
 
 Current progress at https://flask.palletsprojects.com/en/3.0.x/tutorial/views/
+
+Current progress 29.01.2024 at https://flask.palletsprojects.com/en/3.0.x/tutorial/templates/
