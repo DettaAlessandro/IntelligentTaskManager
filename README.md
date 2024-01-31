@@ -62,3 +62,12 @@ Integration with calendar APIs and to-do list platforms.
 Current progress at https://flask.palletsprojects.com/en/3.0.x/tutorial/views/
 
 Current progress 29.01.2024 at https://flask.palletsprojects.com/en/3.0.x/tutorial/templates/
+
+Current progress 31.01.2024 at https://flask.palletsprojects.com/en/3.0.x/tutorial/blog/
+
+Tasks for home: 
+THINK IF THE OTHER DATABASE STRUCTURE SHOULD BE DONE FIRST
+
+UPDATE DATABASE STRUCTURE
+
+FINISH THE ACTIVITY WITH BUILT IN CALENDER 

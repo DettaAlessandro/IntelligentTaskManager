@@ -25,7 +25,7 @@ def register():
         if error is None:
             try:
                 db.execute(
-                    "INSERT INTO user(username, password_hash) VALUES (?, ?)", 
+                    "INSERT INTO users(username, password_hash) VALUES (?, ?)", 
                     (username, generate_password_hash(password)),
                     
                 )
@@ -69,7 +69,7 @@ def load_logged_in_user():
         g.user = None
     else:
         g.user = get_db().execute(
-            "SELECT * FROM user WHERE user_id = ?", (user_id,)
+            "SELECT * FROM users WHERE user_id = ?", (user_id,)
         ).fetchone()
 
 @bp.route("/logout")

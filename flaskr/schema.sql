@@ -16,6 +16,7 @@ CREATE TABLE users (
 CREATE TABLE activity_log (
     log_id INT PRIMARY KEY,
     user_id INT,
+    title VARCHAR(50),
     activity_description VARCHAR(255),
     start_time DATETIME,
     end_time DATETIME,
@@ -26,6 +27,7 @@ CREATE TABLE activity_log (
 CREATE TABLE goals (
     goal_id INT PRIMARY KEY,
     user_id INT,
+    title VARCHAR(50),
     goal_description VARCHAR(255),
     target_hours INT,
     deadline DATE,
@@ -42,6 +44,7 @@ CREATE TABLE distraction_log (
     category VARCHAR(50),
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
+
 CREATE TABLE task_prioritization (
     prioritization_id INT PRIMARY KEY,
     user_id INT,
